@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: d02e663a229da76419f6a3ce732cdfc6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd50f5c2633ff7e4794510d96322d17a
+      internalID: 692062391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 99
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1786d06189f433043a3b09a1156c5c3f
+      internalID: -1067631605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 100
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe835050dac21d46a197aa943dd633b
+      internalID: -655190049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 99
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42421ad15eb0ac04dad195e2be2aeeef
+      internalID: -1843824389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_4
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 99
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f9096f594878f4a88a5d5560f56f7a
+      internalID: -1145558974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_5
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 100
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efff33e13f714b42b46919e81b4fa2a
+      internalID: 1495417960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_6
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 99
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba324b6d52c7934a81feaa2a239400f
+      internalID: -924165676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_7
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 99
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a9566338b3e86448cacb4a3e2481d9
+      internalID: -335916576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_8
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 100
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b50b646ba99ca4b9c0645f30a65997
+      internalID: -2135480977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93acf594ab0d3a40b18130b89ffc026
+      internalID: 1105661594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_10
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 51
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aee151355fca244cb237abad3ecda9a
+      internalID: -1078481181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_11
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 52
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddd2446907ab1447b3c5c720c0430fc
+      internalID: 488813598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 51
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4563af47ceeb9418caf86c324775f4
+      internalID: -2076339262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_13
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 51
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347f29bb24fc09b46b9d3fd0e4a12b6a
+      internalID: 582076837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 52
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58443d453134034496aa6d1b0bfee3f
+      internalID: 875160872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 51
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891fa816ee4e2904eab7c46d22cca220
+      internalID: 1443301906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_16
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 51
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5470e03a774d84180689914320b1c3
+      internalID: 1129399291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 52
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257efa64c9919504ca27224e145b380d
+      internalID: 1468296235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f60a7418cd01044b6e6237aff37ae3
+      internalID: -1859652746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo
+        Jr_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 5
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf250e6671dfea4c8c9d94bb592238e
+      internalID: 998993923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_18: -1859652746
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_9: 1105661594
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_1: -1067631605
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_12: -2076339262
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_29: 290556829
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_21: 894688249
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_23: -633465828
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_16: 1129399291
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_2: -655190049
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_4: -1145558974
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_6: -924165676
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_5: 1495417960
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_8: -2135480977
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_19: 998993923
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_32: 701293071
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_27: 1942100315
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_34: -114657726
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_11: 488813598
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_31: -1987670978
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_26: 2042895939
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_24: -122601227
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_13: 582076837
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_35: 57477135
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_30: -557270652
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_3: -1843824389
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_25: -249246587
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_14: 875160872
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_0: 692062391
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_20: 752082883
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_33: 538822949
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_36: -287808006
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_17: 1468296235
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_28: -1588940380
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_7: -335916576
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_22: -2045310851
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_10: -1078481181
+      PC Computer - The Binding of Isaac Rebirth - Tumor Psy Tumor & Camillo Jr_15: 1443301906
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
