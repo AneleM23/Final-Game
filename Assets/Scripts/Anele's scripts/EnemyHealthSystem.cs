@@ -14,15 +14,6 @@ public class EnemyHealthSystem : MonoBehaviour
         currentHealth = maxLives;
     }
 
-    // Update is called once per frame
-   private void Update()
-    {
-      //  if (currentHealth <= 0)
-       // {
-        //    Destroy(gameObject);   
-        //}
-
-    }
 
     public void TakeDamage(int damage)
     {
@@ -34,12 +25,12 @@ public class EnemyHealthSystem : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+        if (other.CompareTag("Bullet"))
         {
             TakeDamage(bulletDamage);
+            Destroy(other.gameObject); // Destroy the bullet
         }
     }
-
 }

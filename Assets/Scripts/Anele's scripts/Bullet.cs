@@ -6,14 +6,14 @@ public class Bullet : MonoBehaviour
 {
     public int damageAmount = 1;
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
 
-        GameObject otherGameObject = collision.gameObject;
+        GameObject otherGameObject = other.gameObject;
 
         if (otherGameObject.CompareTag("Enemy"))
         {
-             EnemyHealthSystem enemy = collision.gameObject.GetComponent<EnemyHealthSystem>();
+             EnemyHealthSystem enemy = other.gameObject.GetComponent<EnemyHealthSystem>();
 
            if (enemy != null)
             {
