@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
     public float speed;
     public float lineOfSight;
     private Transform player;
+    
 
     private void Start()
     {
@@ -27,5 +28,9 @@ public class EnemyController : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSight);
     }
+
+    
+
+    
 
 }

@@ -6,14 +6,19 @@ using UnityEngine.SceneManagement;
 public class SceneChanger1 : MonoBehaviour
 {
 
-    public int SceneBuildIndex; 
-
+    public string sceneToLoad; 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneBuildIndex, LoadSceneMode.Single);
+            LoadScene();
         }
+    }
+
+    public void LoadScene()
+    {
+        
+        SceneManager.LoadScene(sceneToLoad);
     }
 }
