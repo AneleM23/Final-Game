@@ -4,30 +4,47 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Public variable to set the number of enemies needed
-    public int enemyCount; 
-    public GameObject sceneChangerObject;
-    // Private variable to keep track of the current number of enemies
-    private int currentEnemyCount;
+    public static GameManager instance; // Singleton pattern
+
+    public int totalEnemies;
+    private int enemiesRemaining;
+
+    public GameObject sceneManager; // Drag and drop your scene manager object here
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
-        currentEnemyCount = 0; 
+        // Initialize the number of enemies in the level
+        totalEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
+        enemiesRemaining = totalEnemies;
     }
 
     public void EnemyKilled()
     {
-        currentEnemyCount++; // Increment the enemy count whenever an enemy is killed
+        enemiesRemaining--;
 
-        if (currentEnemyCount >= enemyCount) // Check if the required number of enemies has been reached
+        if (enemiesRemaining <= 0)
         {
-            SceneChanger1 sceneChanger = sceneChangerObject.GetComponent<SceneChanger1>();
-
-            if (sceneChanger != null) // Check if the SceneChanger script is present on the given object
-            {
-                sceneChanger.ChangeScene(); // Call the method to change the scene using the SceneChanger script
-            }
+            LevelCompleted();
         }
     }
 
+    private void LevelCompleted()
+    {
+        // Activate the scene manager or perform any other level completion actions
+        sceneManager.SetActive(true);
+    }
 }
+
+
