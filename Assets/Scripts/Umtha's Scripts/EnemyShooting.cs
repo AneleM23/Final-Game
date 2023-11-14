@@ -21,16 +21,20 @@ public class EnemyShooting : MonoBehaviour
     private void Update()
     {
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+
         if (distanceFromPlayer < lineOfSight && distanceFromPlayer > ShootingLineOfSight)
         {
+            Debug.Log("Moving towards player");
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
         }
         else if (distanceFromPlayer <= ShootingLineOfSight && reloadTime < Time.time)
         {
+            Debug.Log("Shooting at player");
             Instantiate(enemyBullet, enemyBulletParent.transform.position, Quaternion.identity);
             reloadTime = Time.time + fireRate;
         }
     }
+
 
     private void OnDrawGizmosSelected()
     {

@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349512571030593501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.631, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3952782111830100632}
-  m_RootOrder: 1
+  m_Father: {fileID: 6352777961421687045}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2915304968289922440
 SpriteRenderer:
@@ -113,7 +113,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3952782111830100632}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6051837930642919348
 GameObject:
@@ -126,7 +126,7 @@ GameObject:
   - component: {fileID: 3952782111830100632}
   - component: {fileID: -7295497529923016207}
   - component: {fileID: -5286498874225944156}
-  - component: {fileID: 645538303795337838}
+  - component: {fileID: 6397954446792109663}
   m_Layer: 0
   m_Name: FattyEnemy
   m_TagString: Untagged
@@ -147,7 +147,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6352777961421687045}
-  - {fileID: 8571550795724182148}
   - {fileID: 1325162651428552878}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -191,8 +190,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &645538303795337838
-CapsuleCollider2D:
+--- !u!60 &6397954446792109663
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -204,9 +203,39 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.023553908, y: 0.32302582}
-  m_Size: {x: 1.1393219, y: 1.4172418}
-  m_Direction: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.65868187, y: 0.39831161}
+      - {x: 0.67213726, y: 0.68629456}
+      - {x: 0.5299015, y: 0.92913055}
+      - {x: 0.25479603, y: 1.124258}
+      - {x: 0.018428802, y: 1.1208801}
+      - {x: -0.18338966, y: 1.1248837}
+      - {x: -0.5288706, y: 0.936779}
+      - {x: -0.6636219, y: 0.6768799}
+      - {x: -0.65806293, y: 0.39543533}
+      - {x: -0.8312703, y: 0.31823328}
+      - {x: -0.8288832, y: 0.115219116}
+      - {x: -0.704566, y: 0.07403946}
+      - {x: -0.65588856, y: -0.2784462}
+      - {x: -0.6034899, y: -0.36031342}
+      - {x: -0.40810627, y: -0.57865894}
+      - {x: 0.43574965, y: -0.5694425}
+      - {x: 0.5720978, y: -0.41502}
+      - {x: 0.68634987, y: -0.19673157}
+      - {x: 0.68690014, y: 0.09981537}
+      - {x: 0.8071976, y: 0.09654999}
+      - {x: 0.8082342, y: 0.2998008}
 --- !u!1 &7087253350565956322
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +264,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.631, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8571550795724182148}
   m_Father: {fileID: 3952782111830100632}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

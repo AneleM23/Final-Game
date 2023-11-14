@@ -10,13 +10,13 @@ public class MenuScript : MonoBehaviour
     public void StartGame()
     {
         Time.timeScale = 2f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void Instructions()
     {
         Time.timeScale = 2f;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     public void BackToMenu()

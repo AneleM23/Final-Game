@@ -1,31 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal.Profiling.Memory.Experimental.FileFormat;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject portalObject; // The portal GameObject
-    public int totalEnemies; // The total number of enemies in the level
+    public static GameManager instance;  // Singleton pattern
+    public int numberOfEnemies;
 
-    public int killedEnemies = 0;
-
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        portalObject.SetActive(false);
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void EnemyKilled()
     {
-        killedEnemies++;
+        numberOfEnemies--;
 
-        if (killedEnemies >= totalEnemies)
+        if (numberOfEnemies <= 0)
         {
-            portalObject.SetActive(true); // Activate the portal when all enemies are killed
+            Debug.Log("All enemies killed. Loading next scene in 4 seconds.");
+            Invoke("LoadNextScene", 4f);
         }
     }
 
+    public void LoadNextScene()
+    {
+        // Load the next scene using SceneManager
+      //  int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(3);
+    }
+
+
 }
+
+
+

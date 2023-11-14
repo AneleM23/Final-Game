@@ -93,7 +93,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4594535999315265636}
-  - component: {fileID: -1108496339522617610}
   - component: {fileID: 575948389698523198}
   - component: {fileID: -1392248329978491513}
   m_Layer: 0
@@ -120,24 +119,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-1108496339522617610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2534536878655605405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2854aacd69077874abe0e69ae23043d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  lineOfSight: 0
-  ShootingLineOfSight: 0
-  fireRate: 1.5
-  enemyBullet: {fileID: 8442764406787652429, guid: 690c7f1f29b869d45854e91f289cd0d5, type: 3}
-  enemyBulletParent: {fileID: 5350879533097843840}
 --- !u!50 &575948389698523198
 Rigidbody2D:
   serializedVersion: 4

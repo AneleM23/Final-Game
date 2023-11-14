@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7579273958030973184}
   - component: {fileID: 4944870182043043513}
   - component: {fileID: 7717927043332616839}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: enemyBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8442764406787652429}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 57fe03c0d6344934fae55708eb8d8a48, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -120,7 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2851a1f7d56c54bbe9371f77ae7907, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 20
+  destroyTime: 5
+  damageAmount: 2
 --- !u!58 &7717927043332616839
 CircleCollider2D:
   m_ObjectHideFlags: 0

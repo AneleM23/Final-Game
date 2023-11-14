@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-
     public int maxHealth = 10;
     public int currentHealth;
     public Text healthText;
@@ -28,8 +27,9 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        //Play death animation or restart the level
+        // Play death animation or restart the level
         Debug.Log("Player has died.");
+        Invoke("RestartGame", 3f);
     }
 
     public void TakeDamage(int damage)
@@ -45,6 +45,7 @@ public class PlayerHealth : MonoBehaviour
         {
             currentHealth = maxHealth;
         }
+        UpdateHealthText();
     }
 
     void UpdateHealthText()
@@ -54,6 +55,20 @@ public class PlayerHealth : MonoBehaviour
             healthText.text = "Lives: " + currentHealth.ToString();
         }
     }
+
+    // New method to expose current health value
+    public int GetCurrentHealth()
+    {
+        return currentHealth;
+    }
+
+
+    void RestartGame()
+    {
+        // Assuming 0 is the index of your start scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
 }
+
 
 

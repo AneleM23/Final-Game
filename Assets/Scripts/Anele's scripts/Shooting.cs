@@ -5,11 +5,12 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public Transform SpawnPoint;
-    public GameObject bulletPrefab;
+    public GameObject regularBulletPrefab;
     public float bulletForce = 20f;
-    
 
-
+    // Access the Bullet script directly
+    public float bulletSpeedMultiplier = 1f;
+    public int bulletDamageMultiplier = 1;
 
     // Update is called once per frame
     void Update()
@@ -22,21 +23,22 @@ public class Shooting : MonoBehaviour
 
     void Shoot()
     {
-        //GameObject bullet =  Instantiate(bulletPrefab, SpawnPoint.position, SpawnPoint.rotation);
-        //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        //  rb.AddForce(SpawnPoint.up * bulletForce, ForceMode2D.Impulse);
-
-        // Calculate the direction from SpawnPoint to mouse cursor
         Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 direction = (mousePosition - (Vector2)SpawnPoint.position).normalized;
 
-        GameObject bullet = Instantiate(bulletPrefab, SpawnPoint.position, Quaternion.identity);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        GameObject bullet = Instantiate(regularBulletPrefab, SpawnPoint.position, Quaternion.identity);
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
 
-        // Apply force in the direction of the mouse cursor
+        // Modify bullet properties based on the power-up
+        if (bulletScript != null)
+        {
+            bulletScript.speed *= bulletSpeedMultiplier;
+            bulletScript.damageAmount *= bulletDamageMultiplier;
+        }
+
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         rb.AddForce(direction * bulletForce, ForceMode2D.Impulse);
     }
 
 
 }
-
